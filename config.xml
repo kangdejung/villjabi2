@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.dungzi.villjabi2" version="1" android-versionCode="1" xmlns="http://www.w3.org/ns/widgets"  xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>빌잡이</name>
+    <description>	
+        빌잡이
+    </description>
+    <author email="webplug@gmail.com" href="http://www.dungzi.com/">
+        Dungzi Team
+    </author>
+	<preference name="AutoHideSplashScreen" value="false" />
+	<preference name="SplashScreenDelay" value="10000" />
+	<preference name="android-minSdkVersion" value="15" />
+	<preference name="android-targetSdkVersion" value="28" />
+	<preference name="fullscreen" value="false" />
+	<preference name="loadUrlTimeoutValue" value="60000" />
+
+
+	<gap:plugin name="cordova-plugin-whitelist" source="npm" />
+	<gap:plugin name="cordova-plugin-inappbrowser" source="npm"  />
+
+	 <gap:plugin name="cordova-plugin-camera" source="npm" />
+	 <gap:plugin name="cordova-plugin-media-capture" source="npm" />
+	 <gap:plugin name="cordova-plugin-device" source="npm" />
+	 <gap:plugin name="cordova-plugin-media" source="npm" />
+	
+	<allow-navigation href="*" />
+	<icon src="icon.png" />
+	<content src="index.html" />
+	<access origin="*" />
+	<allow-intent href="http://*/*" />
+	<allow-intent href="https://*/*" />
+	<allow-intent href="sms:*" />
+	<allow-intent href="tel:*" />
+
+</widget>
